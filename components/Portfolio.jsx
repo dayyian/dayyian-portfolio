@@ -1007,7 +1007,7 @@ export default function Portfolio() {
                 Open to marketing, AI, and product collaborations. Based in Islamabad — happy to work remote.
               </p>
               <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
-                <a href="mailto:hello@dayyiansajid@gmail.com" className="cta-btn" style={{ background: "#D4AF37", color: "#0A0A0A", padding: "15px 28px", borderRadius: "999px", fontSize: "14px", fontWeight: 600, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", transition: "all 0.25s ease" }}>
+                <a href="mailto:hello@dayyians.08@gmail.com" className="cta-btn" style={{ background: "#D4AF37", color: "#0A0A0A", padding: "15px 28px", borderRadius: "999px", fontSize: "14px", fontWeight: 600, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", transition: "all 0.25s ease" }}>
                   <Mail size={16} /> Email me
                 </a>
                 
