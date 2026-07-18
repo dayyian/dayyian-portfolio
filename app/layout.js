@@ -11,3 +11,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+import { Analytics } from "@vercel/analytics/next";
