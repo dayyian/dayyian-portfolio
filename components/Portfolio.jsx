@@ -852,14 +852,12 @@ export default function Portfolio() {
           </Reveal>
           <Reveal delay={100}>
             <h1 className="hero-title" style={{ fontSize: "clamp(48px, 8vw, 92px)", fontWeight: 700, lineHeight: 1.02, letterSpacing: "-0.03em", margin: 0, maxWidth: "980px" }}>
-              Marketing is the craft. <span className="gold-text">AI</span> is the edge I'm building.
+              Driven by marketing. Powered by <span className="gold-text">AI</span> .
             </h1>
           </Reveal>
           <Reveal delay={220}>
             <p style={{ fontSize: "18px", color: "#9A988F", maxWidth: "560px", marginTop: "28px", lineHeight: 1.6 }}>
-              I'm Dayyian Sajid — an 18-year-old marketer based in Islamabad with 500,000+
-              views generated across brand and campaign work. Now going deep on AI to build
-              the next stage of my career.
+              Most people choose between marketing and technology. I'm building expertise in both. That's where I believe the biggest opportunities will be created.
             </p>
           </Reveal>
           <Reveal delay={340}>
@@ -898,21 +896,14 @@ export default function Portfolio() {
         </Reveal>
         <Reveal delay={80}>
           <p style={{ fontSize: "clamp(24px, 3.4vw, 38px)", lineHeight: 1.4, maxWidth: "900px", fontWeight: 500, letterSpacing: "-0.01em", marginBottom: "28px" }}>
-            Marketing has been my trade since I was sixteen — running a luxury dealership's
-            Instagram, writing hooks that hold attention, and shaping how brands talk to
-            people. That's where the results are:{" "}
-            <span className="gold-text">500,000+ views, four companies, three industries.</span>
+            Marketing taught me how to capture attention. AI is teaching me how to create value.{" "}
+            <span className="gold-text">I'm building at the intersection of both—where the next generation of products will be created.</span>
           </p>
         </Reveal>
         <Reveal delay={160}>
           <p style={{ fontSize: "16px", lineHeight: 1.7, maxWidth: "680px", color: "#9A988F" }}>
-            I'm an A-Level student in Islamabad studying Mathematics, Physics, and Computer
-            Science, and right now I'm deliberately going deep on AI — prompt engineering,
-            agents, and LLM applications — as an intern at Maanz AI. Not a pivot away from
-            marketing, an upgrade to it: understanding how AI actually works so I can build
-            with it, not just talk about it. Long-term, that combination is the whole plan —
-            marketing instincts, technical fluency, and the ambition to build something of
-            my own.
+            I operate at the intersection of AI, technology, and marketing — building the skills needed for the next generation of digital businesses. Currently exploring Generative AI, LLM applications, and autonomous AI agents at Maanz AI, while bringing a marketing-first mindset shaped through real-world projects, content, and brand growth. I’m not interested in simply following trends. I’m focused on understanding the technology behind them, using it to create smarter systems, solve real problems, and eventually build something of my own.
+
           </p>
         </Reveal>
 
