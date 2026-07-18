@@ -50,3 +50,4 @@ Everything lives in one file: **`components/Portfolio.jsx`**
   against `CHAT_KB`. Wiring up a real LLM-backed version requires a backend
   API route and an Anthropic (or other) API key — ask if you want that built.
 - Custom cursor is desktop-only; it's automatically disabled on touch devices.
+# Dayyian-profile
