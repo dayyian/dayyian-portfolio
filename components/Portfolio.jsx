@@ -63,6 +63,15 @@ const STATS = [
   { value: 3, suffix: "", label: "Industries touched" },
 ];
 
+const TOOLS = [
+  {
+    title: "Hook Lab",
+    desc: "Generate scroll-stopping hooks, captions, and full reel breakdowns for any topic — live and working.",
+    tag: "AI Product",
+    link: "https://hook-lab-pink.vercel.app",
+  },
+];
+
 const MARQUEE_WORDS = [
   "Content Strategy", "Branding", "Copywriting", "Social Media Marketing", "Event Marketing",
   "Creative Direction", "Video Editing", "Prompt Engineering", "AI Agents", "Workflow Automation",
@@ -298,6 +307,7 @@ export default function Portfolio() {
     ["Experience", "experience"],
     ["Skills", "skills"],
     ["Projects", "projects"],
+    ["AI Lab", "ai-lab"],
     ["Contact", "contact"],
   ];
 
@@ -590,6 +600,39 @@ export default function Portfolio() {
               </TiltCard>
             </Reveal>
           ))}
+        </div>
+      </section>
+
+      {/* AI Lab */}
+      <section id="ai-lab" className="section-pad" style={{ padding: "60px 48px 140px", position: "relative", zIndex: 1 }}>
+        <Reveal>
+          <div style={{ fontSize: "12px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#D4AF37", marginBottom: "12px" }}>AI Lab</div>
+          <h2 style={{ fontSize: "clamp(28px,4vw,42px)", fontWeight: 600, letterSpacing: "-0.02em", marginBottom: "12px" }}>Tools I've built, not just talked about</h2>
+          <p style={{ color: "#9A988F", fontSize: "15px", maxWidth: "560px", marginBottom: "40px", lineHeight: 1.6 }}>
+            Small AI products built to actually solve marketing problems — live, working, and growing.
+          </p>
+        </Reveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
+          {TOOLS.map((tool, i) => (
+            <Reveal key={tool.title} delay={i * 90}>
+              <TiltCard style={{ border: "1px solid rgba(212,175,55,0.2)", borderRadius: "16px", height: "100%" }}>
+                <a href={tool.link} target="_blank" rel="noopener noreferrer" style={{ display: "block", padding: "28px", textDecoration: "none", color: "inherit" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "18px" }}>
+                    <span style={{ fontSize: "11px", padding: "5px 12px", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "999px", color: "#D4AF37" }}>{tool.tag}</span>
+                    <ArrowUpRight size={18} style={{ color: "#D4AF37" }} />
+                  </div>
+                  <h3 style={{ fontSize: "18px", fontWeight: 600, margin: "0 0 10px" }}>{tool.title}</h3>
+                  <p style={{ fontSize: "14px", color: "#9A988F", lineHeight: 1.6, margin: "0 0 16px" }}>{tool.desc}</p>
+                  <span style={{ fontSize: "13px", color: "#D4AF37", fontWeight: 600 }}>Try it live →</span>
+                </a>
+              </TiltCard>
+            </Reveal>
+          ))}
+          <Reveal delay={TOOLS.length * 90}>
+            <div style={{ border: "1px dashed rgba(255,255,255,0.15)", borderRadius: "16px", height: "100%", padding: "28px", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "#5A5850", fontSize: "13px" }}>
+              More tools shipping soon
+            </div>
+          </Reveal>
         </div>
       </section>
 
