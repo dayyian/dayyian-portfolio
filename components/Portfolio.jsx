@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { ArrowRight, ArrowUpRight, Mail, Menu, X } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Mail, Instagram, Menu, X } from "lucide-react";
+
 
 // ---------- Data ----------
 
@@ -649,6 +650,9 @@ export default function Portfolio() {
               <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
                 <a href="mailto:dayyians.08@gmail.com" className="cta-btn" style={{ background: "#D4AF37", color: "#0A0A0A", padding: "15px 28px", borderRadius: "999px", fontSize: "14px", fontWeight: 600, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", transition: "all 0.25s ease" }}>
                   <Mail size={16} /> Email me
+                </a>
+                <a href="https://instagram.com/_dayyian_" target="_blank" rel="noopener noreferrer" className="ghost-btn" style={{ background: "transparent", color: "#F5F3EE", border: "1px solid rgba(255,255,255,0.2)", padding: "15px 28px", borderRadius: "999px", fontSize: "14px", fontWeight: 600, textDecoration: "none", display: "flex", alignItems: "center", gap: "8px", transition: "all 0.25s ease" }}>
+                <Instagram size={16} /> Instagram
                 </a>
               </div>
             </div>
