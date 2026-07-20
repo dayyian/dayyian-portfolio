@@ -68,7 +68,7 @@ const TOOLS = [
     title: "Hook Lab",
     desc: "Generate scroll-stopping hooks, captions, and full reel breakdowns for any topic — live and working.",
     tag: "AI Product",
-    link: "https://hook-lab-pink.vercel.app",
+    link: "https://hook-lab-nu.vercel.app",
   },
 ];
 
